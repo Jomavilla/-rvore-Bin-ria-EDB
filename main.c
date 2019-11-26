@@ -33,9 +33,8 @@ void showTree(Tree* t)
 { 
   if(!treeIsEmpty(t)) 
   {
-   
+    printf("◄ %d ► ", t->num);
     showTree(t->sae); 
-     printf("◄ %d ► ", t->num);
     showTree(t->sad);
   }
    
